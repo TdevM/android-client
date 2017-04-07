@@ -4,9 +4,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mifos.mifosxdroid"
-    android:versionCode="3"
-    android:versionName="0.4.0">
+    package="com.mifos.mifosxdroid">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -31,8 +29,8 @@
             android:value="@integer/google_play_services_version" />
 
         <meta-data
-            android:name="com.crashlytics.ApiKey"
-            android:value="b781afbde2e7db1df8455861d3f5d59c158f3bff" />
+            android:name="io.fabric.ApiKey"
+            android:value="facae47316396ae7954149cc408e25b7a37ab7ea" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

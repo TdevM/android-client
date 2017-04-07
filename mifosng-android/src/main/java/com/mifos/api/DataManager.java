@@ -18,8 +18,8 @@ import com.mifos.objects.organisation.LoanProducts;
 import com.mifos.objects.organisation.Office;
 import com.mifos.objects.organisation.Staff;
 import com.mifos.objects.response.SaveResponse;
+import com.mifos.objects.templates.clients.ChargeTemplate;
 import com.mifos.objects.templates.loans.GroupLoanTemplate;
-import com.mifos.objects.user.User;
 import com.mifos.services.data.ChargesPayload;
 import com.mifos.services.data.GroupLoanPayload;
 
@@ -53,15 +53,6 @@ public class DataManager {
                        DataManagerClient dataManagerClient) {
         mBaseApiManager = baseApiManager;
         mDataManagerClient = dataManagerClient;
-    }
-
-    /**
-     * @param username Username
-     * @param password Password
-     * @return Basic OAuth
-     */
-    public Observable<User> login(String username, String password) {
-        return mBaseApiManager.getAuthApi().authenticate(username, password);
     }
 
     /**
@@ -105,7 +96,7 @@ public class DataManager {
         return mBaseApiManager.getChargeApi().getListOfCharges(clientId, offset, limit);
     }
 
-    public Observable<ResponseBody> getAllChargesV2(int clientId) {
+    public Observable<ChargeTemplate> getAllChargesV2(int clientId) {
         return mBaseApiManager.getChargeApi().getAllChargesS(clientId);
     }
 

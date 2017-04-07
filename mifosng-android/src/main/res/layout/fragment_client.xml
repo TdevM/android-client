@@ -38,7 +38,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_gravity='center'
             android:src="@drawable/ic_error_black_24dp"/>
 
         <TextView
@@ -56,6 +56,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_add_black_24dp"/>
+        android:src="@drawable/ic_add_white_24dp"/>
 
 </android.support.design.widget.CoordinatorLayout>

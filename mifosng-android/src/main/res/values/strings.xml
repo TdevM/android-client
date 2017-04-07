@@ -10,6 +10,7 @@
     <string name="datatables">DataTable</string>
     <string name="associated_datatables">Associated Datatables</string>
     <string name="login">Login</string>
+    <string name="login_successfully">Login Successfully</string>
     <string name="test_ip">10.0.2.2</string>
     <string name="search">Search</string>
     <string name="group_name">Group Name</string>
@@ -87,6 +88,7 @@
     <string name="savings_account_closed">Savings Account Closed</string>
     <string name="savings_account_activated">Savings Account Activated</string>
     <string name="more_info">More client info</string>
+    <string name="more_group_info">More group Info</string>
     <string name="pinpoint">Pinpoint location</string>
     <string name="charges">Charges </string>
     <string name="add_loan">Add Loan Account</string>
@@ -125,6 +127,7 @@
     <string name="empty_client_list">Empty ClientList</string>
     <string name="empty_group_clients">Empty Group ClientList</string>
     <string name="empty_groups_list">Empty GroupList</string>
+    <string name="empty_groups">No group associated with this center</string>
     <string name="empty_center_list">Empty CenterList</string>
     <string name="empty_path_tracking">Empty Path Tracking</string>
     <string name="empty_data_table">Empty DataTable</string>
@@ -175,6 +178,7 @@
     <string name="nominal_overdraft">Nominal annual interest for overdraft </string>
     <string name="unassigned">Unassigned</string>
     <string name="disburse_loan">Disburse Loan</string>
+    <string name="logging_in">Logging In</string>
     <!-- General Terms End Here -->
 
 
@@ -371,6 +375,11 @@
     <string name="add_charge">Add Charges</string>
 
     <!-- Error Messages -->
+    <string name="error_invalid_url">Invalid URL</string>
+    <string name="error_invalid_connection">Invalid connection Data</string>
+    <string name="error_username_length">Invalid username length</string>
+    <string name="error_password_length">Invalid password length</string>
+    <string name="error_not_connected_internet">Not connected to Network</string>
     <string name="error_login_failed">Please try again, your credentials are not valid</string>
     <string name="message_no_identifiers_available">No Identifiers available for this client</string>
     <string name="message_no_charges_available">No Charges available for this client</string>
@@ -556,7 +565,7 @@
     <string name="failed_to_add_savings_account">Failed to add SavingsAccount</string>
     <string name="failed_to_fetch_documents">Failed to fetch documents</string>
     <string name="failed_to_fetch_groups">Failed to Fetch Groups</string>
-    <string name="failed_to_fetch_center">Failed to Fetch Center</string>
+    <string name="failed_to_fetch_centers">Failed to Fetch Centers</string>
     <string name="failed_to_fetch_Group_and_meeting">Failed to Fetch Group and Meeting</string>
     <string name="failed_to_fetch_group_and_account">Failed to fetch group and accounts</string>
     <string name="failed_fetch_document">Failed to fetch document</string>
@@ -636,6 +645,9 @@
     <string name="surveyEmpty">This Survey is Empty</string>
     <string name="centerList_account_prefix">Account No: %1$s</string>
     <string name="no_staff">no staff</string>
+    <string name="note">Notes</string>
+    <string name="empty_notes">Empty Notes</string>
+    <string name="failed_to_fetch_notes">Failed to Fetch Notes</string>
 
 
 </resources>
